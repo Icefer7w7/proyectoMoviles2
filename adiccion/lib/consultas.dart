@@ -1193,49 +1193,6 @@ class Consultas extends StatelessWidget {
                   ),
                 ),
               ),
-              Positioned(
-                left: -18,
-                top: 0,
-                child: Container(
-                  width: 393,
-                  height: 44,
-                  clipBehavior: Clip.antiAlias,
-                  decoration: BoxDecoration(),
-                  child: Stack(),
-                ),
-              ),
-              Positioned(
-                left: 13.44,
-                top: 11,
-                child: SizedBox(
-                  width: 29.34,
-                  child: Text(
-                    '9:41',
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 14,
-                      fontFamily: 'Roboto',
-                      fontWeight: FontWeight.w500,
-                      height: 1.43,
-                      letterSpacing: 0.14,
-                    ),
-                  ),
-                ),
-              ),
-              Positioned(
-                left: 66.89,
-                top: 0,
-                child: Container(
-                  width: 224.27,
-                  height: 35,
-                  decoration: ShapeDecoration(
-                    color: Colors.black,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(25),
-                    ),
-                  ),
-                ),
-              ),
             ],
           ),
         ),

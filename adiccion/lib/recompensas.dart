@@ -36,49 +36,6 @@ class Recmpensas extends StatelessWidget {
           child: Stack(
             children: [
               Positioned(
-                left: 0,
-                top: 0,
-                child: Container(
-                  width: 375,
-                  height: 44,
-                  clipBehavior: Clip.antiAlias,
-                  decoration: BoxDecoration(),
-                  child: Stack(),
-                ),
-              ),
-              Positioned(
-                left: 30,
-                top: 11,
-                child: SizedBox(
-                  width: 28,
-                  child: Text(
-                    '9:41',
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 14,
-                      fontFamily: 'Roboto',
-                      fontWeight: FontWeight.w500,
-                      height: 1.43,
-                      letterSpacing: 0.14,
-                    ),
-                  ),
-                ),
-              ),
-              Positioned(
-                left: 81,
-                top: 0,
-                child: Container(
-                  width: 214,
-                  height: 35,
-                  decoration: ShapeDecoration(
-                    color: Colors.black,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(25),
-                    ),
-                  ),
-                ),
-              ),
-              Positioned(
                 left: 22,
                 top: 158,
                 child: Container(
@@ -176,7 +133,7 @@ class Recmpensas extends StatelessWidget {
               ),
               Positioned(
                 left: 154,
-                top: 510,
+                top: 506,
                 child: Container(
                   width: 264,
                   height: 165,

@@ -30,58 +30,14 @@ class Calendario extends StatelessWidget {
       children: [
         Container(
           width: 375,
-          height: 812,
+          height: 768,
           clipBehavior: Clip.antiAlias,
           decoration: BoxDecoration(color: Colors.white),
           child: Stack(
             children: [
               Positioned(
-                left: 0,
-                top: 0,
-                child: Container(
-                  width: 375,
-                  height: 44.50,
-                  clipBehavior: Clip.antiAlias,
-                  decoration: BoxDecoration(),
-                  child: Stack(),
-                ),
-              ),
-              Positioned(
-                left: 26,
-                top: 12,
-                child: SizedBox(
-                  width: 28,
-                  height: 22.76,
-                  child: Text(
-                    '9:41',
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 14,
-                      fontFamily: 'Roboto',
-                      fontWeight: FontWeight.w500,
-                      height: 1.43,
-                      letterSpacing: 0.14,
-                    ),
-                  ),
-                ),
-              ),
-              Positioned(
-                left: 81,
-                top: 0,
-                child: Container(
-                  width: 214,
-                  height: 33,
-                  decoration: ShapeDecoration(
-                    color: Colors.black,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(25),
-                    ),
-                  ),
-                ),
-              ),
-              Positioned(
-                left: 0.03,
-                top: 728.50,
+                left: 0.06,
+                top: 684,
                 child: Container(
                   width: 375,
                   height: 83.50,
@@ -194,8 +150,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 16.03,
-                top: 226.50,
+                left: 16.06,
+                top: 182,
                 child: Text(
                   '29',
                   textAlign: TextAlign.center,
@@ -208,8 +164,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 76.03,
-                top: 226.50,
+                left: 76.06,
+                top: 182,
                 child: Text(
                   '30',
                   textAlign: TextAlign.center,
@@ -222,8 +178,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 136.03,
-                top: 226.50,
+                left: 136.06,
+                top: 182,
                 child: Text(
                   '31',
                   textAlign: TextAlign.center,
@@ -236,8 +192,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 194.03,
-                top: 226.50,
+                left: 194.06,
+                top: 182,
                 child: Text(
                   '1',
                   textAlign: TextAlign.center,
@@ -250,8 +206,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 243.03,
-                top: 226.50,
+                left: 243.06,
+                top: 182,
                 child: Text(
                   '2',
                   textAlign: TextAlign.center,
@@ -264,8 +220,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 294.03,
-                top: 226.50,
+                left: 294.06,
+                top: 182,
                 child: Text(
                   '3',
                   textAlign: TextAlign.center,
@@ -278,8 +234,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 345.03,
-                top: 226.50,
+                left: 345.06,
+                top: 182,
                 child: Text(
                   '4',
                   textAlign: TextAlign.center,
@@ -292,8 +248,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 21.03,
-                top: 283.50,
+                left: 21.06,
+                top: 239,
                 child: Text(
                   '5',
                   textAlign: TextAlign.center,
@@ -306,8 +262,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 81.03,
-                top: 283.50,
+                left: 81.06,
+                top: 239,
                 child: Text(
                   '6',
                   textAlign: TextAlign.center,
@@ -320,8 +276,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 140.03,
-                top: 283.50,
+                left: 140.06,
+                top: 239,
                 child: Text(
                   '7',
                   textAlign: TextAlign.center,
@@ -334,8 +290,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 193.03,
-                top: 283.50,
+                left: 193.06,
+                top: 239,
                 child: Text(
                   '8',
                   textAlign: TextAlign.center,
@@ -348,8 +304,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 243.03,
-                top: 283.50,
+                left: 243.06,
+                top: 239,
                 child: Text(
                   '9',
                   textAlign: TextAlign.center,
@@ -362,8 +318,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 290.03,
-                top: 283.50,
+                left: 290.06,
+                top: 239,
                 child: Text(
                   '10',
                   textAlign: TextAlign.center,
@@ -376,8 +332,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 342.03,
-                top: 283.50,
+                left: 342.06,
+                top: 239,
                 child: Text(
                   '11',
                   textAlign: TextAlign.center,
@@ -390,8 +346,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 18.03,
-                top: 340.50,
+                left: 18.06,
+                top: 296,
                 child: Text(
                   '12',
                   textAlign: TextAlign.center,
@@ -404,8 +360,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 77.03,
-                top: 340.50,
+                left: 77.06,
+                top: 296,
                 child: Text(
                   '13',
                   textAlign: TextAlign.center,
@@ -418,8 +374,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 136.03,
-                top: 340.50,
+                left: 136.06,
+                top: 296,
                 child: Text(
                   '14',
                   textAlign: TextAlign.center,
@@ -432,8 +388,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 189.03,
-                top: 340.50,
+                left: 189.06,
+                top: 296,
                 child: Text(
                   '15',
                   textAlign: TextAlign.center,
@@ -446,8 +402,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 239.03,
-                top: 340.50,
+                left: 239.06,
+                top: 296,
                 child: Text(
                   '16',
                   textAlign: TextAlign.center,
@@ -460,8 +416,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 291.03,
-                top: 340.50,
+                left: 291.06,
+                top: 296,
                 child: Text(
                   '17',
                   textAlign: TextAlign.center,
@@ -474,8 +430,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 341.03,
-                top: 340.50,
+                left: 341.06,
+                top: 296,
                 child: Text(
                   '18',
                   textAlign: TextAlign.center,
@@ -488,8 +444,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 17.03,
-                top: 397.50,
+                left: 17.06,
+                top: 353,
                 child: Text(
                   '19',
                   textAlign: TextAlign.center,
@@ -502,8 +458,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 76.03,
-                top: 397.50,
+                left: 76.06,
+                top: 353,
                 child: Text(
                   '20',
                   textAlign: TextAlign.center,
@@ -516,8 +472,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 137.03,
-                top: 397.50,
+                left: 137.06,
+                top: 353,
                 child: Text(
                   '21',
                   textAlign: TextAlign.center,
@@ -530,8 +486,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 189.03,
-                top: 397.50,
+                left: 189.06,
+                top: 353,
                 child: Text(
                   '22',
                   textAlign: TextAlign.center,
@@ -544,8 +500,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 238.03,
-                top: 397.50,
+                left: 238.06,
+                top: 353,
                 child: Text(
                   '23',
                   textAlign: TextAlign.center,
@@ -558,8 +514,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 289.03,
-                top: 397.50,
+                left: 289.06,
+                top: 353,
                 child: Text(
                   '24',
                   textAlign: TextAlign.center,
@@ -572,8 +528,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 341.03,
-                top: 397.50,
+                left: 341.06,
+                top: 353,
                 child: Text(
                   '25',
                   textAlign: TextAlign.center,
@@ -586,8 +542,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 16.03,
-                top: 446.50,
+                left: 16.06,
+                top: 402,
                 child: Text(
                   '26',
                   textAlign: TextAlign.center,
@@ -600,8 +556,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 77.03,
-                top: 446.50,
+                left: 77.06,
+                top: 402,
                 child: Text(
                   '27',
                   textAlign: TextAlign.center,
@@ -614,8 +570,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 135.03,
-                top: 446.50,
+                left: 135.06,
+                top: 402,
                 child: Text(
                   '28',
                   textAlign: TextAlign.center,
@@ -628,8 +584,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 188.03,
-                top: 446.50,
+                left: 188.06,
+                top: 402,
                 child: Text(
                   '29',
                   textAlign: TextAlign.center,
@@ -642,8 +598,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 238.03,
-                top: 446.50,
+                left: 238.06,
+                top: 402,
                 child: Text(
                   '30',
                   textAlign: TextAlign.center,
@@ -656,8 +612,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 290.03,
-                top: 446.50,
+                left: 290.06,
+                top: 402,
                 child: Text(
                   '31',
                   textAlign: TextAlign.center,
@@ -670,8 +626,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 346.03,
-                top: 446.50,
+                left: 346.06,
+                top: 402,
                 child: Text(
                   '1',
                   textAlign: TextAlign.center,
@@ -684,8 +640,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 16.03,
-                top: 495.50,
+                left: 16.06,
+                top: 451,
                 child: Container(
                   width: 343,
                   height: 35,
@@ -751,8 +707,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 16.03,
-                top: 546.50,
+                left: 16.06,
+                top: 502,
                 child: Container(
                   width: 343,
                   height: 35,
@@ -818,8 +774,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 16.03,
-                top: 597.50,
+                left: 16.06,
+                top: 553,
                 child: Container(
                   width: 343,
                   height: 35,
@@ -885,8 +841,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 16.03,
-                top: 648.50,
+                left: 16.06,
+                top: 604,
                 child: Container(
                   width: 343,
                   height: 35,
@@ -952,8 +908,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: -0.03,
-                top: 44.50,
+                left: 0,
+                top: 0,
                 child: Container(
                   width: 375,
                   height: 161,
@@ -961,8 +917,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 101,
-                top: 98,
+                left: 101.03,
+                top: 53.50,
                 child: SizedBox(
                   width: 174,
                   height: 34,
@@ -978,8 +934,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 15.03,
-                top: 177.50,
+                left: 15.06,
+                top: 133,
                 child: Text(
                   'Mo',
                   textAlign: TextAlign.center,
@@ -992,8 +948,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 72.03,
-                top: 177.50,
+                left: 72.06,
+                top: 133,
                 child: Text(
                   'Tu',
                   textAlign: TextAlign.center,
@@ -1006,8 +962,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 125.03,
-                top: 177.50,
+                left: 125.06,
+                top: 133,
                 child: Text(
                   'We',
                   textAlign: TextAlign.center,
@@ -1020,8 +976,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 182.03,
-                top: 177.50,
+                left: 182.06,
+                top: 133,
                 child: Text(
                   'Th',
                   textAlign: TextAlign.center,
@@ -1034,8 +990,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 236.03,
-                top: 177.50,
+                left: 236.06,
+                top: 133,
                 child: Text(
                   'Fr',
                   textAlign: TextAlign.center,
@@ -1048,8 +1004,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 286.03,
-                top: 177.50,
+                left: 286.06,
+                top: 133,
                 child: Text(
                   'Sa',
                   textAlign: TextAlign.center,
@@ -1062,8 +1018,8 @@ class Calendario extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 339.03,
-                top: 177.50,
+                left: 339.06,
+                top: 133,
                 child: Text(
                   'Su',
                   textAlign: TextAlign.center,
